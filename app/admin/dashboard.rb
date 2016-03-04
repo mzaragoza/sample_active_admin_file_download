@@ -10,6 +10,11 @@ ActiveAdmin.register_page "Dashboard" do
       end
     end
 
+    columns do
+      panel "Links to csv" do
+        link_to 'Fl Insurance Sample', '/fl_insurance_sample.csv'
+      end
+    end
     # Here is an example of a simple dashboard with columns and panels.
     #
     # columns do
